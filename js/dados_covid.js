@@ -8,10 +8,7 @@ function  dados_covid_global() {
         //$("#" + formName).html(preloaderAzul);
       },
       success: function(response) {
-       console.log(response);
-       console.log(response.Global.NewConfirmed);
-       console.log(response.Countries[23]);
-
+      
       var global_new = response.Global.NewConfirmed;
      document.getElementById("ninfectados").innerHTML = global_new ;
 
@@ -56,7 +53,7 @@ function  dados_covid_global() {
 function dados_covid_estado() {
   var estado = document.getElementById("estados").value
   estado = estado.toLowerCase();
-  console.log(estado);
+  
   $.ajax({
     url: "https://covid19-brazil-api.now.sh/api/report/v1/brazil/uf/"+estado,
     type: "get",
@@ -64,7 +61,6 @@ function dados_covid_estado() {
       //$("#" + formName).html(preloaderAzul);
     },
     success: function(response) {
-     console.log(response);
     
    var negativo = response.refuses;
    document.getElementById("enegativo").innerHTML = negativo;
