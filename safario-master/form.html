@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V12</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<header>
+	<a href="index.html"><img src="img/logo.png" style="padding-top: 12px; padding-left:  12px ; float: left;"></a>
+
+	
+</header>
+<body onload="slide1(); translate_login()">
+
+	<div class="bg-contact100" style="background-color: black; margin-top: 40px;">
+		<div class="container-contact100" style="background-color: black;">
+			<div class="wrap-contact100">
+			
+               
+				<form class="contact100-form validate-form" >
+					<span class="contact100-form-title">
+						
+					</span>
+				 
+					<img src="img/undraw_Group_chat_unwm (1).svg" alt="IMG" id="img_slide_form" style="height:12em; display: block; margin: 0 auto; margin-top:-60px; margin-bottom: 40px ;">
+
+					<div class="wrap-input100 validate-input" data-validate = "Name is required">
+						<input class="input100" type="text" name="name" placeholder="Nome de usuario ou email" id="email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="password" name="email" placeholder="senha" id="password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+					
+						</span>
+					</div>
+
+			
+
+					<div class="container-contact100-form-btn">
+						<button class="contact100-form-btn" id="login">
+							Entrar
+						</button>
+						
+					</div>
+					<div class="col s12 m6 offset-m3 center-align" style="margin-top: 40px; border-radius: 50px !important ;">
+						<a class="oauth-container btn darken-4 white black-text" href="/users/google-oauth/" style="text-transform:none" style="width: 40em;">
+							<div class="left">
+								<img width="20px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" 
+									src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+							</div>
+							Login with Google
+						</a>
+						<p style="color: white; font-size: 10px; margin: 10px auto;"><span id="forget_password">Por acaso você esqueceu sua senha</span> <a href="#" style="color: cornflowerblue; text-decoration: none; font-size: 10px;" id="here" class="here">clique aqui</a></p>
+						<p style="color: white; font-size: 10px; margin: 10px auto;"> <span id="sign-in">não tem um conta se inscreva-se</span> <a href="#" style="color: cornflowerblue; text-decoration: none; font-size: 10px;" id="here2" class="here">clique aqui</a></p>
+					</a>
+					</a>
+
+					</a>
+
+					</a>
+
+					</div>
+					
+					</div>
+					
+					<!-- Compiled and minified CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+					
+					<!-- Compiled and minified JavaScript -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main2.js"></script>
+	<script src="js/slide.js"></script>
+		<script src="js/translate.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script src="https://cdn.jsdelivr.net/npm/translate@1/translate.min.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
